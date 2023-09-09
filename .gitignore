@@ -1,23 +1,17 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# ignora los archivos terminados en .a
+*.a
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# pero no lib.a, aun cuando había ignorado los archivos terminados en .a en la línea anterior
+!lib.a
 
-# testing
-/coverage
+# ignora unicamente el archivo TODO de la raiz, no subdir/TODO
+/TODO
 
-# production
-/build
+# ignora todos los archivos del directorio build/
+build/
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# ignora doc/notes.txt, pero no este: doc/server/arch.txt
+doc/*.txt
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# ignora todos los archivos .txt del directorio doc/
+doc/**/*.txt
