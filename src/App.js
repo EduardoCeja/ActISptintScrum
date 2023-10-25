@@ -5,6 +5,7 @@ import Principal from './components/Principal'
 import Promociones from './components/Promociones'
 import Layout from "./components/Layout";
 import Contact from "./components/Contact";
+import FormularioOrd from "./components/FormularioOrd"
 //import { useState } from 'react';
 import './App.css';
 
@@ -19,9 +20,11 @@ function App() {
               <Route index element={<Principal />}/>
               <Route path="Promociones" element={<Promociones />}/>
               <Route path="contact" element={<Contact />} />
+              <Route path="FormularioOrd" element={<FormularioOrd />} />
           </Route>
         </Routes>
       </BrowserRouter>
+      
     </div>
   );
 }
