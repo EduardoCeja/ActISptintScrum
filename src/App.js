@@ -6,6 +6,7 @@ import Promociones from './components/Promociones'
 import Layout from "./components/Layout";
 import Contact from "./components/Contact";
 import FormularioOrd from "./components/FormularioOrd"
+import Welcome from "./components/Welcome";
 //import { useState } from 'react';
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
               <Route path="Promociones" element={<Promociones />}/>
               <Route path="contact" element={<Contact />} />
               <Route path="FormularioOrd" element={<FormularioOrd />} />
+              <Route path="Welcome" element={<Welcome />} />
           </Route>
         </Routes>
       </BrowserRouter>

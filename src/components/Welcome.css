@@ -1,0 +1,30 @@
+
+.Formulario{
+    margin-top: 100px;
+    display: inline-block;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+    margin-top: 41px;
+}
+.input[type="submit"]{
+    margin-top: 50px;
+}
+.App-logo{
+    width: 350px;
+}
+
+.textC{
+    width: 61%;
+    border-radius: 13px;
+    font-size: 34px;
+    border-radius: 16px;
+    margin: 4px -74px;
+}
+input{
+    margin-left: -45px;
+    font-size: 20px;
+}
